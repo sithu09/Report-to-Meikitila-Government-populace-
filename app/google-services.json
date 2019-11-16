@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "276916122841",
+    "firebase_url": "https://liberity-a214c.firebaseio.com",
+    "project_id": "liberity-a214c",
+    "storage_bucket": "liberity-a214c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276916122841:android:cead862edda6acf8bffac8",
+        "android_client_info": {
+          "package_name": "com.mt.liberity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276916122841-htef6linsr8lprd1oh5bbbj61bj0at8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mt.liberity",
+            "certificate_hash": "cc2fb54577671a7bb67b8daeeff8d03ac738548e"
+          }
+        },
+        {
+          "client_id": "276916122841-4042kudf3ls4ef9kctimjhkbfnl635br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC28kn886YIyAhGwYYQkobFgi_Cg0GPhY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276916122841-4042kudf3ls4ef9kctimjhkbfnl635br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

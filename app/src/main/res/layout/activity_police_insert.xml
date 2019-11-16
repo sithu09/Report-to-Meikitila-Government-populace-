@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliceInsert">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#DA70D6"
+            android:paddingTop="30px"
+            android:text="ရဲစခန်း"
+            android:textAlignment="center"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+    </LinearLayout>
+    <!--ပမာဏ
+    သင်၏ရောင်းကုန်ပစ္စည်းအား
+    စျေးကွက်သို့ တင်ပါိ့ပြီးပါပြီ။
+    အခြားကုန်များ ထပ်မံတင်လိုပါက
+    ကုတ်နံပါတ် ပြောင်းပေးပါ။-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:background="#E6E6FA"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <EditText
+            android:id="@+id/ptitle"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext"
+            android:ems="15"
+            android:hint="ခေါင်းစဥ်"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/pdate"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext"
+            android:ems="15"
+            android:hint="ရက်စွဲ"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/pprovide"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext"
+            android:ems="15"
+            android:hint="သက်သေ"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/pproposal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|top"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:paddingTop="25px"
+            android:paddingLeft="20px"
+            android:hint="အကြောင်းအရာ"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="92dp"/>
+
+
+        <Button
+            android:id="@+id/ppost"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/loginbutton2"
+            android:text="တိုင်စာပို့မည်"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/pnews"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/loginbutton2"
+            android:text="မှုခင်းသတင်း"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

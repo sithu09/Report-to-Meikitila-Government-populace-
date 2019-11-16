@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Police">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#3498db"
+            android:paddingTop="40px"
+            android:text="ရဲစခန်း"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ebdef0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25px"
+        android:layout_marginBottom="35px"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bcrime"
+            android:layout_width="303dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/broker"
+            android:text="မှုခင်းသတင်း"
+            android:textSize="20dp"
+           />
+
+
+        <Button
+            android:id="@+id/binformer"
+            android:layout_width="303dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/broker"
+            android:text="တိုင်စာပို့မည်"
+            android:textSize="20dp"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="အခြေခံရပိုင်ခွင့်သည် နိုင်ငံသားတိုင်း၏ အခွင့်အရေး ဖြစ်သည်။\nမတရားမှုကို ကာကွယ်ရန် \n199 သို့ ဆက်သွယ်ပါ။"/>
+
+
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="3px"-->
+<!--        android:background="#000">-->
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="35px"-->
+<!--        android:layout_marginBottom="35px">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bmonition"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="သတိပေးချက်"-->
+<!--            />-->
+
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="3px"-->
+<!--        android:background="#000">-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        >
+
+
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="3px"-->
+<!--        android:layout_marginTop="35px"-->
+<!--        android:background="#000">-->
+
+
+</LinearLayout>

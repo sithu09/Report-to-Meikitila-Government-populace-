@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EPC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#3498db"
+            android:paddingTop="40px"
+            android:text="EPC"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25px"
+        android:layout_marginBottom="35px"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/enews"
+            android:layout_width="303dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/broker"
+            android:text="EPC သတင်း"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/ereport"
+            android:layout_width="303dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/broker"
+            android:text="တိုင်စာပို့မည်"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="လျှပ်စစ်မီးရရှိရေးသည် အခြေခံလိုအပ်ချက်ဖြစ်သည်။
+အခက်အခဲတစ်စုံတစ်ရာအတွက် EPCသို့ ဆက်သွယ်နိုင်သည်။"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        >
+
+
+
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="3px"-->
+    <!--        android:layout_marginTop="35px"-->
+    <!--        android:background="#000">-->
+
+
+</LinearLayout>
