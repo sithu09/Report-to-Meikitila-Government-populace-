@@ -74,6 +74,13 @@
             android:textColor="#000"
             android:background="@drawable/loginbutton"
             android:textSize="20dp"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbutton"
+            android:id="@+id/btn_scan_qr"
+            android:textSize="15dp"
+            />
 
     </LinearLayout>
 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efebe9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ba68c8">
+            <TextView
+                android:id="@+id/mG"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Report to Meiktila Goverment"
+                android:layout_marginBottom="35dp"
+                android:shadowColor="@color/text_shadow"
+                android:textColor="#212121 "
+                tools:ignore="DuplicateIds"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"/>
+        </LinearLayout>
+<ViewFlipper
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:id="@+id/vflipper">
+        <Button
+            android:id="@+id/police"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:text="Meiktila Police Station\n\n\n\nမိတ္ထီလာနယ်အတွင်းဖြစ်ပွားသော အမှုအခင်းများအပေါ်
+သတင်းပေးချက်များနှင့် တိုင်ကြားချက်များ ပြုလုပ်နိုင်သည်။ရဲစခန်းမှ အသိပေးချက်များ သတင်းများ ကိုလည်း
+ကြည့်ရှုနိုင်သည်။"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:background="#a3e4d7"/>
+    <Button
+        android:id="@+id/hospital"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Meiktila General Hospital\n\n\n\nမိတ္ထီလာပြည်သူ့ဆေးရုံကြီးနှင့် ပတ်သက်၍
+အကြံပြုချက်များ
+တိုင်ကြားချက်များ ပြုလုပ်နိုင်သည်။
+ပြည်သူ့ဆေးရုံကြီးမှ သတင်းများကို ကြည့်ရှုနိုင်သည်။"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="#a3e4d7"/>
+    <Button
+        android:id="@+id/municipal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Meiktila Municipal\n\n\n\nမိတ္ထီလာမြူနီစီပယ်နှင့် ပတ်သက်သော အကြံပြုချက်များ တိုင်ကြားချက်များ ပြုလုပ်နိုင်သည်။
+မြူနီစီပယ်မှ အသိပေးချက်များနှင့် သတင်းများကိုလည်း ကြည့်ရှုနိုင်သည်။"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="#a3e4d7"/>
+    <Button
+        android:id="@+id/epc"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Meiktila EPC\n\n\n\nမိတ္ထီလာလျှပ်စစ်ရုံးနှင့်ပတ်သက်သော အကြံပေးချက်များ တိုင်ကြားချက်များ ပြုလုပ်နိုင်သည်။
+လျှပ်စစ်ရုံးမှ အသိပေးချက်များ သတင်းများ ကိုလည်း
+ကြည့်ရှုနိုင်သည်။"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="#a3e4d7"/>
+</ViewFlipper>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/roundbutton"
+                    android:id="@+id/bpolice"
+                    android:text="ရွေးချယ်မည်"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="75dp"
+                    />
+
+<!--            <Button-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:background="@drawable/roundbutton"-->
+<!--                android:id="@+id/bmunicipal"-->
+<!--                android:layout_marginLeft="50px"-->
+<!--                android:textSize="15dp"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:background="@drawable/roundbutton"-->
+<!--                android:id="@+id/bepc"-->
+<!--                android:layout_marginLeft="50px"-->
+<!--                android:textSize="15dp"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:background="@drawable/roundbutton"-->
+<!--                android:id="@+id/bhospital"-->
+<!--                android:layout_marginLeft="50px"-->
+<!--                android:textSize="15dp"-->
+<!--                />-->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
